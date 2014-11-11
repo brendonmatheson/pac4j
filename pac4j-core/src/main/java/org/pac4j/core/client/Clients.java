@@ -28,14 +28,16 @@ import org.slf4j.LoggerFactory;
 /**
  * This class is made to group multiple clients using a specific parameter to distinguish them, generally on one
  * callback url.
- * <p />
+ * <p>
  * The {@link #init()} method is used to initialize the callback urls of the clients from the callback url of the
  * clients group if empty and a specific parameter added to define the client targeted. It is implicitly called by the
  * "finders" methods and doesn't need to be called explicitly.
- * <p />
+ * </p>
+ * <p>
  * The {@link #findClient(WebContext)}, {@link #findClient(String)} or {@link #findClient(Class)} methods must be called
  * to find the right client according to the input context or type. The {@link #findAllClients()} method returns all the
  * clients.
+ * </p>
  * 
  * @author Jerome Leleu
  * @since 1.3.0

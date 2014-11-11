@@ -21,10 +21,11 @@ import org.pac4j.oauth.profile.OAuthAttributesDefinitions;
 import java.util.Locale;
 
 /**
- * This class is the user profile for ORCiD with appropriate getters.<br />
+ * <p>
+ * This class is the user profile for ORCiD with appropriate getters.<br>
  * It is returned by the {@link org.pac4j.oauth.client.OrcidClient}.
- * <p />
- * <table border="1" cellspacing="2px">
+ * </p>
+ * <table border="1" cellspacing="2px" summary="">
  * <tr>
  * <th>Method :</th>
  * <th>From the XML profile response :</th>

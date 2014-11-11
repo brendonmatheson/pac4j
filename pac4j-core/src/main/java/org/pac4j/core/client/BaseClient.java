@@ -42,20 +42,23 @@ import org.slf4j.LoggerFactory;
  * <li>the concept of "direct" redirection is defined through the {@link #isDirectRedirection()} method : if true, the
  * {@link #redirect(WebContext, boolean, boolean)} method will always return the redirection to the provider where as if it's false, the
  * redirection url will be the callback url with an additionnal parameter : {@link #NEEDS_CLIENT_REDIRECTION_PARAMETER} to require the
- * redirection, which will be handled <b>later</b> in the {@link #getCredentials(WebContext)} method.<br />
+ * redirection, which will be handled <b>later</b> in the {@link #getCredentials(WebContext)} method.<br>
  * To force a direct redirection, the {@link #getRedirectAction(WebContext, boolean, boolean)} must be used with <code>true</code> for the
  * <code>forceDirectRedirection</code> parameter</li>
  * <li>if you enable "contextual redirects" by using the {@link #setEnableContextualRedirects(boolean)}, you can use relative callback urls
  * which will be completed according to the current host, port and scheme. Disabled by default.</li>
  * </ul>
- * <p />
+ * <p>
  * The {@link #init()} method must be called implicitly by the main methods of the {@link Client} interface, so that no explicit call is
  * required to initialize the client.
- * <p/>
+ * </p>
+ * <p>
  * The {@link #getMechanism()} method returns the implemented {@link Mechanism} by the client.
- * <p />
+ * </p>
+ * <p>
  * After retrieving the user profile, the client can generate the authorization information (roles, permissions and remember-me) by using
  * the appropriate {@link AuthorizationGenerator}, which is by default <code>null</code>.
+ * </p>
  * 
  * @author Jerome Leleu
  * @since 1.4.0

@@ -29,10 +29,12 @@ import org.scribe.oauth.ProxyOAuth10aServiceImpl;
 import com.fasterxml.jackson.databind.JsonNode;
 
 /**
+ * <p>
  * This class is the OAuth client to authenticate users in DropBox.
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.oauth.profile.dropbox.DropBoxProfile}.
- * <p />
+ * </p>
  * More information at https://www.dropbox.com/developers/reference/api#account-info
  * 
  * @see org.pac4j.oauth.profile.dropbox.DropBoxProfile

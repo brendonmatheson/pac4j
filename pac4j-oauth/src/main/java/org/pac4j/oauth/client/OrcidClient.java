@@ -30,10 +30,12 @@ import org.scribe.tokens.OrcidToken;
 
 
 /**
+ * <p>
  * This class is the OAuth client to authenticate users in ORCiD.
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.oauth.profile.orcid.OrcidProfile}.
- * <p />
+ * </p>
  * More information at http://support.orcid.org/knowledgebase/articles/175079-tutorial-retrieve-data-from-an-orcid-record-with
  *
  * @see org.pac4j.oauth.profile.orcid.OrcidProfile

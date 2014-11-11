@@ -20,10 +20,11 @@ import org.pac4j.core.profile.CommonProfile;
 import org.pac4j.gae.client.GaeUserServiceClient;
 
 /**
- * This class is the user profile for Google using UserService with appropriate getters.<br />
+ * <p>
+ * This class is the user profile for Google using UserService with appropriate getters.<br>
  * It is returned by the {@link GaeUserServiceClient}.
- * <p />
- * <table border="1" cellspacing="2px">
+ * </p>
+ * <table border="1" cellspacing="2px" summary="">
  * <tr>
  * <th>Method :</th>
  * <th>Through the attribute exchange extension :</th>
@@ -65,7 +66,8 @@ import org.pac4j.gae.client.GaeUserServiceClient;
  * </tr>
  * </table>
  * 
- * @see org.pac4j.openid.client.GoogleOpenIdClient
+ * See also the org.pac4j.openid.client.GoogleOpenIdClient
+ *
  * @author Patrice de Saint Steban
  * @since 1.0.0
  */

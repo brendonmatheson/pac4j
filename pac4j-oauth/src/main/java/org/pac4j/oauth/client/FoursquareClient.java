@@ -27,9 +27,10 @@ import org.scribe.model.Token;
 import org.scribe.oauth.FoursquareOAuth20ServiceImpl;
 
 /**
+ * <p>
  * This class is the OAuth client to authenticate users in Foursquare.
  * It returns a {@link org.pac4j.oauth.profile.foursquare.FoursquareProfile}.
- * <p />
+ * </p>
  * More information at https://developer.foursquare.com/overview/auth.html
  *
  * @see org.pac4j.oauth.profile.foursquare.FoursquareProfile

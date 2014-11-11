@@ -20,7 +20,7 @@ import org.pac4j.oauth.profile.JsonHelper;
 import org.pac4j.oauth.profile.JsonObject;
 
 /**
- * This class is the user profile for Foursquare with appropriate getters.<br />
+ * This class is the user profile for Foursquare with appropriate getters.<br>
  * It is returned by the {@link org.pac4j.oauth.client.FoursquareClient}.
  * 
  * @author Alexey Ogarkov

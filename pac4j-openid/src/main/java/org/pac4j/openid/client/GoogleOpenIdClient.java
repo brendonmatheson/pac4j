@@ -29,12 +29,16 @@ import org.pac4j.openid.profile.google.GoogleOpenIdAttributesDefinition;
 import org.pac4j.openid.profile.google.GoogleOpenIdProfile;
 
 /**
+ * <p>
  * IMPORTANT: Google is removing support for OpenID. OpenID Connect is recommended instead.
  * https://developers.google.com/+/api/auth-migration
- * 
+ * </p>
+ * <p>
  * This class is the OpenID client to authenticate users with their google account.
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.openid.profile.google.GoogleOpenIdProfile}.
+ * </p>
  * 
  * @see org.pac4j.openid.profile.google.GoogleOpenIdProfile
  * @author Stephane Gleizes

@@ -28,10 +28,12 @@ import org.scribe.oauth.ProxyOAuth20ServiceImpl;
 import com.fasterxml.jackson.databind.JsonNode;
 
 /**
+ * <p>
  * This class is the OAuth client to authenticate users in Windows Live (SkyDrive, Hotmail and Messenger).
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.oauth.profile.windowslive.WindowsLiveProfile}.
- * <p />
+ * </p>
  * More information at http://msdn.microsoft.com/en-us/library/live/hh243641.aspx
  * 
  * @see org.pac4j.oauth.profile.windowslive.WindowsLiveProfile

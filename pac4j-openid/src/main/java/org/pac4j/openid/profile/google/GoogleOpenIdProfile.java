@@ -22,13 +22,16 @@ import org.pac4j.openid.profile.OpenIdAttributesDefinitions;
 import org.pac4j.openid.profile.OpenIdProfile;
 
 /**
+ * <p>
  * IMPORTANT: Google is removing support for OpenID. OpenID Connect is recommended instead.
  * https://developers.google.com/+/api/auth-migration
- * 
- * This class is the user profile for Google using OpenID with appropriate getters.<br />
+ * </p>
+ * <p>
+ * This class is the user profile for Google using OpenID with appropriate getters.<br>
  * It is returned by the {@link org.pac4j.openid.client.GoogleOpenIdClient}.
- * <p />
- * <table border="1" cellspacing="2px">
+ * </p>
+ *
+ * <table border="1" cellspacing="2px" summary="">
  * <tr>
  * <th>Method :</th>
  * <th>Through the attribute exchange extension :</th>

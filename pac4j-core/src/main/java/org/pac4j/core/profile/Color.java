@@ -21,8 +21,9 @@ import org.pac4j.core.exception.TechnicalException;
 
 /**
  * This class is a simple RGB color values holder.
- * <p/>
+ * <p>
  * It was introduced in 1.2.0 to replace usage of {@link java.awt.Color} which is a restricted class on Google AppEngine.
+ * </p>
  * 
  * @author Peter Knego
  * @since 1.2.0

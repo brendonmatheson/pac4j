@@ -14,14 +14,17 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 
 /**
+ * <p>
  * This class is the OAuth client to authenticate users in Vk.
- * <p />
+ * </p>
+ * <p>
  * The <i>scope</i> can be defined to require specific permissions from the user
  * by using the {@link #setScope(String)} method. By default, the <i>scope</i>
  * is : <code>PERMISSIONS</code>.
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.oauth.profile.vk.VkProfile}.
- * <p />
+ * </p>
  * More information at https://vk.com/dev/users.get
  * 
  * @see org.pac4j.oauth.profile.vk.VkProfile

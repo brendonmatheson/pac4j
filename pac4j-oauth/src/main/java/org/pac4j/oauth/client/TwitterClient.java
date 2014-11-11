@@ -30,13 +30,16 @@ import org.scribe.oauth.ProxyOAuth10aServiceImpl;
 import com.fasterxml.jackson.databind.JsonNode;
 
 /**
+ * <p>
  * This class is the OAuth client to authenticate users in Twitter.
- * <p />
+ * </p>
+ * <p>
  * You can define if a screen should always been displayed for authorization confirmation by using the
  * {@link #setAlwaysConfirmAuthorization(boolean)} method (<code>false</code> by default).
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.oauth.profile.twitter.TwitterProfile}.
- * <p />
+ * </p>
  * More information at https://dev.twitter.com/docs/api/1/get/account/verify_credentials
  * 
  * @see org.pac4j.oauth.profile.twitter.TwitterProfile

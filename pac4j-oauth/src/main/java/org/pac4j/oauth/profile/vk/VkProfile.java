@@ -9,10 +9,11 @@ import org.pac4j.oauth.profile.OAuth20Profile;
 import org.pac4j.oauth.profile.OAuthAttributesDefinitions;
 
 /**
- * This class is the user profile for Vk with appropriate getters.<br />
+ * <p>
+ * This class is the user profile for Vk with appropriate getters.<br>
  * It is returned by the {@link org.pac4j.oauth.client.VkClient}.
- * <p />
- * <table border="1" cellspacing="2px">
+ * </p>
+ * <table border="1" cellspacing="2px" summary="">
  * <tr>
  * <th>Method :</th>
  * <th>From the JSON profile response :</th>
@@ -67,7 +68,6 @@ import org.pac4j.oauth.profile.OAuthAttributesDefinitions;
  * <tr>
  * <td>String getLastName()</td>
  * <td>the <i>last_name</i> attribute</td>
- * </tr>
  * </tr>
  * <tr>
  * <td>String getDomain()</td>

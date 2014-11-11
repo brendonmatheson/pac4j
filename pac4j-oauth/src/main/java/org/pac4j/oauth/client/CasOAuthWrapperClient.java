@@ -31,12 +31,15 @@ import com.fasterxml.jackson.databind.JsonNode;
 
 /**
  * This class is the OAuth client to authenticate users on CAS servers using OAuth wrapper.
- * <p />
+ * <p>
  * The url of the OAuth endpoint of the CAS server must be set by using the {@link #setCasOAuthUrl(String)} method.
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.oauth.profile.casoauthwrapper.CasOAuthWrapperProfile}.
- * <p />
+ * </p>
+ * <p>
  * More information at https://wiki.jasig.org/display/CASUM/OAuth+server+support
+ * </p>
  * 
  * @see org.pac4j.oauth.profile.casoauthwrapper.CasOAuthWrapperProfile
  * @author Jerome Leleu

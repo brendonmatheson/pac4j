@@ -30,8 +30,9 @@ import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
 /**
+ * <p>
  * This class is the OpenID client to authenticate users with UserService on App Engine
- * <p />
+ * </p>
  * 
  * @author Patrice de Saint Steban
  * @since 1.6.0

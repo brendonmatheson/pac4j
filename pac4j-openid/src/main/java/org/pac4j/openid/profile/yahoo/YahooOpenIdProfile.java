@@ -23,10 +23,11 @@ import org.pac4j.openid.profile.OpenIdAttributesDefinitions;
 import org.pac4j.openid.profile.OpenIdProfile;
 
 /**
- * This class is the user profile for Yahoo using OpenID with appropriate getters.<br />
+ * <p>
+ * This class is the user profile for Yahoo using OpenID with appropriate getters.<br>
  * It is returned by the {@link YahooOpenIdClient}.
- * <p />
- * <table border="1" cellspacing="2px">
+ * </p>
+ * <table border="1" cellspacing="2px" summary="">
  * <tr>
  * <th>Method :</th>
  * <th>Through the attribute exchange extension :</th>

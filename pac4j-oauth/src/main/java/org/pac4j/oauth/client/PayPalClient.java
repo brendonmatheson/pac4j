@@ -31,13 +31,16 @@ import com.fasterxml.jackson.databind.JsonNode;
 
 /**
  * This class is the OAuth client to authenticate users in PayPal.
- * <p />
- * By default, the following <i>scope</i> is requested to PayPal : openid profile email address.<br />
+ * <p>
+ * By default, the following <i>scope</i> is requested to PayPal : openid profile email address.<br>
  * The <i>scope</i> can be defined to require permissions from the user and retrieve attributes from PayPal, by using the
- * {@link #setScope(String)} method.<br />
- * <p />
+ * </p>
+ * <p>
+ * {@link #setScope(String)} method.<br>
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.oauth.profile.paypal.PayPalProfile}.
- * <p />
+ * </p>
  * More information at https://developer.paypal.com/webapps/developer/docs/integration/direct/log-in-with-paypal/detailed/
  * 
  * @see org.pac4j.oauth.profile.paypal.PayPalProfile

@@ -30,10 +30,12 @@ import org.scribe.oauth.ProxyOAuth10aServiceImpl;
 import com.fasterxml.jackson.databind.JsonNode;
 
 /**
+ * <p>
  * This class is the OAuth client to authenticate users in Yahoo.
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.oauth.profile.yahoo.YahooProfile}.
- * <p />
+ * </p>
  * More information at http://developer.yahoo.com/social/rest_api_guide/extended-profile-resource.html
  * 
  * @see org.pac4j.oauth.profile.yahoo.YahooProfile

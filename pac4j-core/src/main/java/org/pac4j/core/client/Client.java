@@ -21,10 +21,10 @@ import org.pac4j.core.exception.RequiresHttpAction;
 import org.pac4j.core.profile.UserProfile;
 
 /**
- * This interface represents a client (whatever the protocol).<br />
- * <br />
- * A client has a type accessible by the {@link #getName()} method.<br />
- * A client supports the authentication process and user profile retrieval through :<br />
+ * This interface represents a client (whatever the protocol).<br>
+ * <br>
+ * A client has a type accessible by the {@link #getName()} method.<br>
+ * A client supports the authentication process and user profile retrieval through :<br>
  * <ul>
  * <li>the {@link #redirect(WebContext, boolean, boolean)} method to get the redirection to perform for the user to start the authentication (at
  * the provider)</li>
@@ -47,16 +47,19 @@ public interface Client<C extends Credentials, U extends UserProfile> {
 
     /**
      * Redirect to the authentication provider by updating the WebContext accordingly.
-     * <p />
+     * <p>
      * Though, if this client requires an indirect redirection, it will return a redirection to the callback url (with an additionnal parameter requesting a
      * redirection). Whatever the kind of client's redirection, the <code>protectedTarget</code> parameter set to <code>true</code> enforces
      * a direct redirection.
-     * <p />
+     * </p>
+     * <p>
      * If an authentication has already been tried for this client and has failed (previous <code>null</code> credentials) and if the target
      * is protected (<code>protectedTarget</code> set to <code>true</code>), a forbidden response (403 HTTP status code) is returned.
-     * <p />
+     * </p>
+     * <p>
      * If the request is an AJAX one (<code>ajaxRequest</code> parameter set to <code>true</code>), an authorized response (401 HTTP status
      * code) is returned instead of a redirection.
+     * </p>
      * 
      * @param context
      * @param protectedTarget
@@ -66,7 +69,7 @@ public interface Client<C extends Credentials, U extends UserProfile> {
     public void redirect(WebContext context, boolean protectedTarget, boolean ajaxRequest) throws RequiresHttpAction;
 
     /**
-     * Get the credentials from the web context. In some cases, a {@link RequiresHttpAction} may be thrown instead:<br />
+     * Get the credentials from the web context. In some cases, a {@link RequiresHttpAction} may be thrown instead:<br>
      * <ul>
      * <li>if this client requires an indirect redirection, the redirection will be actually performed by these method and not by the
      * {@link #redirect(WebContext, boolean, boolean)} one (302 HTTP status code)</li>

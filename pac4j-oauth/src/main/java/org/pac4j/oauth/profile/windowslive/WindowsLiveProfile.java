@@ -22,10 +22,11 @@ import org.pac4j.oauth.profile.OAuthAttributesDefinitions;
 import org.pac4j.oauth.profile.OAuth20Profile;
 
 /**
- * This class is the user profile for Windows Live with appropriate getters.<br />
+ * <p>
+ * This class is the user profile for Windows Live with appropriate getters.<br>
  * It is returned by the {@link org.pac4j.oauth.client.WindowsLiveClient}.
- * <p />
- * <table border="1" cellspacing="2px">
+ * </p>
+ * <table border="1" cellspacing="2px" summary="">
  * <tr>
  * <th>Method :</th>
  * <th>From the JSON profile response :</th>

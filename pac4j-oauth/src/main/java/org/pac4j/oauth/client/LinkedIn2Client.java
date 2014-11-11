@@ -30,13 +30,16 @@ import org.scribe.model.Token;
 import org.scribe.oauth.LinkedInOAuth20ServiceImpl;
 
 /**
+ * <p>
  * This class is the OAuth client to authenticate users in LinkedIn (using OAuth 2.0 protocol).
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.oauth.profile.linkedin2.LinkedIn2Profile}.
- * <p />
+ * </p>
+ * <p>
  * The scope (by default : <code>r_fullprofile</code>) can be specified using the {@link #setScope(String)} method, as well as the returned
  * fields through the {@link #setFields(String)} method.
- * <p />
+ * </p>
  * More information at https://developer.linkedin.com/documents/profile-api
  * 
  * @see org.pac4j.oauth.profile.linkedin2.LinkedIn2Profile

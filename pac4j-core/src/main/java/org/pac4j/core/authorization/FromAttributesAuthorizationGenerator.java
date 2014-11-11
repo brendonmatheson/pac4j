@@ -21,9 +21,10 @@ import org.pac4j.core.profile.CommonProfile;
 
 /**
  * Generate the authorization information by inspecting attributes.
- * <p/>
+ * <p>
  * The attributes containing the roles separated by the {@link #splitChar} property (can be set through {@link #setSplitChar(String)}) are
  * defined in the constructor. It's the same for the attributes containing the permissions.
+ * </p>
  * 
  * @author Jerome Leleu
  * @since 1.5.0

@@ -45,40 +45,48 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ * <p>
  * This class is the client to authenticate users on a CAS server.
- * <p />
+ * </p>
+ * <p>
  * The CAS service url is defined by the callback url which must be defined on the services back office of the CAS server.
- * <p />
+ * </p>
+ * <p>
  * The CAS server login url is defined by the {@link #setCasLoginUrl(String)} method and the CAS server prefix url is settable by the
  * {@link #setCasPrefixUrl(String)} method. If the CAS prefix url is not defined, the CAS prefix url is computed from the CAS server login
  * url and vice versa.
- * <p />
+ * </p>
+ * <p>
  * The CAS protocol is defined by the {@link #setCasProtocol(CasProtocol)} method and {@link CasProtocol} enumeration. It can be :
  * <ul>
  * <li>CAS 1.0</li>
  * <li>CAS 2.0 : service tickets only (by default)</li>
- * <li>CAS 2.0 : service & proxy tickets. In this case, it's possible to define if any proxy is accepted by using the
+ * <li>CAS 2.0 : service &amp; proxy tickets. In this case, it's possible to define if any proxy is accepted by using the
  * {@link #setAcceptAnyProxy(boolean)} method or the list of accepted proxies by using the {@link #setAllowedProxyChains(ProxyList)} method.
  * </li>
  * <li>SAML.</li>
  * </ul>
- * <p />
+ * <p>
  * For the CAS round-trip :
+ * </p>
  * <ul>
  * <li>the <code>renew</code> parameter can be set by using the {@link #setRenew(boolean)} method</li>
  * <li>the <code>gateway</code> parameter can be set by using the {@link #setGateway(boolean)} method.</li>
  * </ul>
- * <p />
+ * <p>
  * This client handles CAS logout calls from the CAS server, using the {@link LogoutHandler} interface. It's defined by default as the
  * {@link NoLogoutHandler} class, which does not perform the logout. Though, in J2E context, it can be defined to the
  * {@link CasSingleSignOutHandler} class by using the {@link #setLogoutHandler(LogoutHandler)} method. It must be used in association with
  * the CAS client listener : {@link SingleSignOutHttpSessionListener}.
- * <p />
+ * </p>
+ * <p>
  * To require a proxy granting ticket, the {@link CasProxyReceptor} class must be used and referenced in this class through the
  * {@link #setCasProxyReceptor(CasProxyReceptor)} method.
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.cas.profile.CasProfile} or a {@link org.pac4j.cas.profile.CasProxyProfile} if the
  * <code>casProxyReceptor</code> is defined (this CAS client acts as a proxy).
+ * </p>
  * 
  * @see org.pac4j.cas.profile.CasProfile
  * @author Jerome Leleu

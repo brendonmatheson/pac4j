@@ -30,13 +30,16 @@ import org.scribe.oauth.ProxyOAuth20ServiceImpl;
 import com.fasterxml.jackson.databind.JsonNode;
 
 /**
+ * <p>
  * This class is the OAuth client to authenticate users in Google using OAuth protocol version 2.0.
- * <p />
+ * </p>
+ * <p>
  * The <i>scope</i> is by default : {@link Google2Scope#EMAIL_AND_PROFILE}, but it can also but set to : {@link Google2Scope#PROFILE}
  * or {@link Google2Scope#EMAIL}.
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.oauth.profile.google2.Google2Profile}.
- * <p />
+ * </p>
  * More information at https://developers.google.com/accounts/docs/OAuth2Login
  *
  * @see org.pac4j.oauth.profile.google2.Google2Profile

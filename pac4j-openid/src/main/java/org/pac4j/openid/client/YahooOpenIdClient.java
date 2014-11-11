@@ -30,9 +30,12 @@ import org.pac4j.openid.profile.yahoo.YahooOpenIdAttributesDefinition;
 import org.pac4j.openid.profile.yahoo.YahooOpenIdProfile;
 
 /**
+ * <p>
  * This class is the OpenID client to authenticate users with their yahoo account.
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.openid.profile.yahoo.YahooOpenIdProfile}.
+ * </p>
  * 
  * @see org.pac4j.openid.profile.google.GoogleOpenIdProfile
  * @author Patrice de Saint Steban

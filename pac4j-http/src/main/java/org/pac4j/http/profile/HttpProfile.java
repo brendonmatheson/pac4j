@@ -18,10 +18,11 @@ package org.pac4j.http.profile;
 import org.pac4j.core.profile.CommonProfile;
 
 /**
- * This class is the user profile for sites using HTTP protocol.<br />
+ * <p>
+ * This class is the user profile for sites using HTTP protocol.<br>
  * It is returned by the {@link org.pac4j.http.client.FormClient} or the {@link org.pac4j.http.client.BasicAuthClient}.
- * <p />
- * <table border="1" cellspacing="2px">
+ * </p>
+ * <table border="1" cellspacing="2px" summary="">
  * <tr>
  * <th>Method :</th>
  * <th>From the JSON profile response :</th>
@@ -70,8 +71,9 @@ import org.pac4j.core.profile.CommonProfile;
  * <td>the <i>location</i> attribute</td>
  * </tr>
  * </table>
- * <p />
+ * <p>
  * All other attributes must be retrieved using the {@link #getAttributes()} method.
+ * </p>
  * 
  * @see org.pac4j.http.client.FormClient
  * @see org.pac4j.http.client.BasicAuthClient

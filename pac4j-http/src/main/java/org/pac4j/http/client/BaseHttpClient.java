@@ -26,15 +26,19 @@ import org.pac4j.http.profile.ProfileCreator;
 import org.pac4j.http.profile.UsernameProfileCreator;
 
 /**
+ * <p>
  * This class is the base HTTP client to authenticate users through HTTP protocol.
- * <p />
+ * </p>
+ * <p>
  * The username and password inputs must be retrieved through HTTP protocol.
- * <p />
+ * </p>
+ * <p>
  * To validate credentials, an {@link UsernamePasswordAuthenticator} must be defined through the
  * {@link #setUsernamePasswordAuthenticator(UsernamePasswordAuthenticator)} method.
- * <p />
+ * </p>
+ * <p>
  * To create the profile, a {@link ProfileCreator} must be defined through the {@link #setProfileCreator(ProfileCreator)} method.
- * <p />
+ * </p>
  * It returns a {@link org.pac4j.http.profile.HttpProfile}.
  * 
  * @see org.pac4j.http.profile.HttpProfile

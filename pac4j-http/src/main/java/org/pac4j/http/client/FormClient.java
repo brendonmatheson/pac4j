@@ -28,12 +28,14 @@ import org.pac4j.http.profile.HttpProfile;
 import org.pac4j.http.profile.ProfileCreator;
 
 /**
+ * <p>
  * This class is the client to authenticate users through HTTP form.
- * <p />
+ * </p>
+ * <p>
  * The login url of the form must be defined through the {@link #setLoginUrl(String)} method. For authentication, the user is redirected to
  * this login form. The username and password inputs must be posted on the callback url. Their names can be defined by using the
  * {@link #setUsernameParameter(String)} and {@link #setPasswordParameter(String)} methods.
- * <p />
+ * </p>
  * It returns a {@link org.pac4j.http.profile.HttpProfile}.
  * 
  * @see org.pac4j.http.profile.HttpProfile

@@ -29,10 +29,12 @@ import org.scribe.oauth.ProxyOAuth20ServiceImpl;
 import com.fasterxml.jackson.databind.JsonNode;
 
 /**
+ * <p>
  * This class is the OAuth client to authenticate users in WordPress.
- * <p />
+ * </p>
+ * <p>
  * It returns a {@link org.pac4j.oauth.profile.wordpress.WordPressProfile}.
- * <p />
+ * </p>
  * More information at http://developer.wordpress.com/docs/oauth2/
  * 
  * @see org.pac4j.oauth.profile.wordpress.WordPressProfile
